@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.col-md-5 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-md-5 ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+header {
+    background-color: green;
+    color: white;
+    min-height: 25px;
+}
+
+nav {
+    display: flex;
+    min-height: 80px;
+    background-color: rgb(20, 165, 73);
+    text-align: center;
+}
+
+nav img {
+    width: 100px;
+    float: right;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+nav .col-md-6 {
+    display: flex;
+    align-items: center;
+}
+
+nav .col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    justify-content: flex-start;
+}
+section {
+    margin-top: 40px;
+    text-align: center;
+}
+.box { 
+    margin-top: 10px;
+    border: 1px solid #a5a5a5;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+position:relative;
+box-shadow:5px 5px #a5a5a5;
+}
+.new {
+    min-width: 50px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    text-align: center;
+}
+.of {
+    min-width: 75px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    text-align: center;
+}
+img {
+    width: 90%;
+}
+button {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 40px;
+}
+.text {
+    width: 70%;
+    text-align: center;
+    margin: 20px 0px 20px;
+}
+.carousel-item {
+    margin-top: 80px;
+}
+.mail {
+    border: 1px solid black;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.button {
+    width: 100%;
+    height: 50px;
+}
+footer {
+    margin-top: 10px;
+    min-height: 30px;
+    background-color: #a5a5a5;
+    display: flex;
+}
+footer img {
+    min-height: 30px;
+    width: 50px;
+}
+.img {
+    float: right;
+}
